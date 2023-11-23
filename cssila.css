@@ -1,0 +1,245 @@
+.halaman1 {
+	font-family: arial;
+	font-size: 15px;
+	width: 210px;
+	height: 150px;
+	background-color: ghostwhite;
+	margin: 20px;
+	padding: 1px 15px 10px 15px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	border: 1px solid grey;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}
+
+.halaman2 {
+	width: 550px;
+	height: 230px;
+	background-color: ghostwhite;
+	margin: 20px;
+	padding: 1px 15px 10px 15px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	border: 1px solid grey;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: arial;
+	font-size: 15px;
+}
+
+.halaman3 {
+	width: 550px;
+	height: 200px;
+	background-color: ghostwhite;
+	margin: 20px;
+	padding: 1px 10px 0px 15px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	border: 1px solid grey;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: arial;
+}
+
+.lanjut {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.lanjut{
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	line-height: 30px;
+	width: 75px;
+	height: 30px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	overflow: hidden;
+	text-align: center;
+}
+
+.next2 {
+	position: absolute;
+	top: 80%;
+	left: 53%;
+	transform: translate(-50%, -50%);
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	width: 75px;
+	height: 30px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.prev2 {
+	position: absolute;
+	top: 80%;
+	left: 46%;
+	transform: translate(-50%, -50%);
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	width: 75px;
+	height: 30px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.next3 {
+	position: absolute;
+	top: 80%;
+	left: 53%;
+	transform: translate(-50%, -50%);
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	width: 75px;
+	height: 30px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.prev3 {
+	position: absolute;
+	top: 80%;
+	left: 46%;
+	transform: translate(-50%, -50%);
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	width: 75px;
+	height: 30px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.prev4 {
+	position: absolute;
+	top: 80%;
+	left: 47%;
+	transform: translate(-50%, -50%);
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+	width: 75px;
+	height: 30px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-family: arial;
+	font-size: 10px;
+}
+
+body {
+	font-size: arial 30px;
+	background: url(gambar/bg.jpg);
+	background-position: center;
+}
+
+h2 {
+	color: black;
+}
+
+p {
+	color: black;
+	font-family: 'Roboto Condensed';
+}
+
+@media (max-width: 768px) {
+	.halaman2 {
+		width: 300px;
+		height: 320px;
+		padding: 1px 15px 10px 15px;
+	}
+
+	.halaman3 {
+		width: 300px;
+		height: 310px;
+	}
+
+	.next2 {
+		left: 60%;
+	}
+
+	.prev2 {
+		left: 40%;
+	}
+
+	.next3 {
+		left: 60%;
+	}
+
+	.prev3 {
+		left: 40%;
+	}
+}
+
+@media (max-width: 600px) {
+	.halaman2 {
+		width: 300px;
+		height: 320px;
+		padding: 1px 15px 10px 15px;
+	}
+
+	.halaman3 {
+		width: 300px;
+		height: 310px;
+	}
+
+	.next2 {
+		left: 60%;
+	}
+
+	.prev2 {
+		left: 40%;
+	}
+
+	.next3 {
+		left: 60%;
+	}
+
+	.prev3 {
+		left: 40%;
+	}
+}
